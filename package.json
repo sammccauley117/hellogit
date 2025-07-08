@@ -1,8 +1,12 @@
 {
   "scripts": {
-	  "start": "functions-framework --target=hellogit"
+    "test": "mocha",
+    "start": "functions-framework --target=hellogit"
   },
   "dependencies": {
     "@google-cloud/functions-framework": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1"
   }
 }
